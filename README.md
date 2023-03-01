@@ -1,6 +1,14 @@
 ```rs
 use std::str::FromStr;
 
+use crate::{
+  about_me::{
+    Programming,
+    guitar::{Guitar, Pickup},
+  },
+  Person
+};
+
 let jake = {
   let programming = Programming::builder()
     .editor("neovim")
@@ -17,7 +25,7 @@ let jake = {
     .manufacturer("Yamaha")
     .name("Pacifica")
     .color("Satin")
-    .pickups("HSS")
+    .pickups(vec![Pickup::Humbucker, Pickup::Single, Pickup::Single])
     .build().unwrap();
     
   Person::builder()
