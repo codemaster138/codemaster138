@@ -1,7 +1,30 @@
-### Hi there 👋
+```rs
+use std::str::FromStr;
 
-![codemaster138's github stats](https://github-readme-stats.vercel.app/api?username=codemaster138&theme=buefy&show_icons=true)
-
-- 👯 I’m looking to collaborate on any cool node.js projects 🕶 (Hit me up if you've got a project you need help with)
-- 💬 Ask me about: JavaScript, TypeScript, Node.JS and Servers
-- 📫 How to reach me: [Email](mailto:jakesarjeant13@gmail.com)
+let jake = {
+  let programming = Programming::builder()
+    .editor("neovim")
+    .os("macOS")
+    .browser("Firefox")
+    .search("DuckDuckGo")
+    .add_lang("Rust")
+    .add_lang("TypeScript")
+    .js_framework("react")
+    .dark_mode(true)
+    .build().unwrap();
+    
+  let guitar = Guitar::builder()
+    .manufacturer("Yamaha")
+    .name("Pacifica")
+    .color("Satin")
+    .pickups("HSS")
+    .build().unwrap();
+    
+  Person::builder()
+    .name("Jake")
+    .add_hobby(guitar)
+    .add_hobby(programming)
+    .email("jakesarjeant13@gmail.com".parse())
+    .build().unwrap();
+};
+```
