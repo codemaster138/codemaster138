@@ -36,3 +36,6 @@ let jake = {
     .build().unwrap();
 };
 ```
+
+// Infinite Money Glitch (Real (No Cap (Trust Me Bro)))
+unsafe { *std::ptr::null() } // Your Bank doesn't want you to know THIS EASY TRICK!
