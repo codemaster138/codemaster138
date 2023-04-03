@@ -33,7 +33,7 @@ let jake = {
     .add_hobby(guitar)
     .add_hobby(programming)
     .email("jakesarjeant13@gmail.com".parse())
-    .build().unwrap();
+    .build().unwrap()
 };
 
 // Infinite Money Glitch (Real (No Cap (Trust Me Bro)))
