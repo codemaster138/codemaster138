@@ -12,7 +12,7 @@ use crate::{
 let jake = {
   let programming = Programming::builder()
     .editor("neovim")
-    .os("macOS")
+    .os("Arch Linux")
     .browser("Firefox")
     .search("DuckDuckGo")
     .add_lang("Rust")
